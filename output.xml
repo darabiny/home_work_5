@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.10.6 on win32)" generated="20231201 19:27:57.344" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.10.6 on win32)" generated="20231201 19:34:44.561" rpa="false" schemaversion="4">
 <suite id="s1" name="API testing" source="C:\Users\Данила\Desktop\API_testing">
 <suite id="s1-s1" name="Mock Test" source="C:\Users\Данила\Desktop\API_testing\mock_test.robot">
 <test id="s1-s1-t1" name="Test_reverse_1" line="7">
@@ -11,22 +11,22 @@
 <var>${character}</var>
 <arg>${elem1}</arg>
 <arg>${elem2}</arg>
-<msg timestamp="20231201 19:27:57.659" level="INFO">${character} = ['Россия', 'Самара', 'Садовая улица']</msg>
-<status status="PASS" starttime="20231201 19:27:57.479" endtime="20231201 19:27:57.659"/>
+<msg timestamp="20231201 19:34:44.874" level="INFO">${character} = ['Россия', 'Самара', 'Садовая улица']</msg>
+<status status="PASS" starttime="20231201 19:34:44.685" endtime="20231201 19:34:44.875"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>['${character[0]}', '${character[1]}', '${character[2]}']</arg>
 <arg>${expect}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20231201 19:27:57.659" endtime="20231201 19:27:57.661"/>
+<status status="PASS" starttime="20231201 19:34:44.875" endtime="20231201 19:34:44.876"/>
 </kw>
-<status status="PASS" starttime="20231201 19:27:57.478" endtime="20231201 19:27:57.662"/>
+<status status="PASS" starttime="20231201 19:34:44.684" endtime="20231201 19:34:44.876"/>
 </kw>
-<status status="PASS" starttime="20231201 19:27:57.478" endtime="20231201 19:27:57.662"/>
+<status status="PASS" starttime="20231201 19:34:44.684" endtime="20231201 19:34:44.877"/>
 </test>
-<status status="PASS" starttime="20231201 19:27:57.371" endtime="20231201 19:27:57.663"/>
+<status status="PASS" starttime="20231201 19:34:44.590" endtime="20231201 19:34:44.879"/>
 </suite>
-<status status="PASS" starttime="20231201 19:27:57.347" endtime="20231201 19:27:57.664"/>
+<status status="PASS" starttime="20231201 19:34:44.565" endtime="20231201 19:34:44.880"/>
 </suite>
 <statistics>
 <total>

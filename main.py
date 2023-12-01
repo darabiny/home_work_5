@@ -1,6 +1,6 @@
 import requests
 import requests_mock
-def lev3(url):
+def mock(url):
     with requests_mock.Mocker() as m:
         m.get(url, status_code=200,
               json={'house_number': '233', 'road': 'Садовая улица', 'suburb': 'Ленинский район', 'city': 'Самара',
@@ -18,7 +18,7 @@ def rek(x, y):
         'lon': y,
     }
     if x == 53.198627 and y == 50.113987:
-        result = lev3(url)
+        result = mock(url)
     else:
         response = requests.get(url=url, params=params)
         result = response.json()['address']
